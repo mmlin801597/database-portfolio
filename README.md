@@ -1,6 +1,8 @@
 # Personal Portfolio for the IoT/MCU class <at university/school>
 
-> When you start editing this file, remove this description.
+new line
+
+> When you start editing this file, lol.
 >
 > Fork this repository (or use it as template).
 > Everything that you do for this class should be documented here
