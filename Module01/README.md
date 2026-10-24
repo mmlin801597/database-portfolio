@@ -47,4 +47,4 @@ Challenges:
 
 ## Reflection 1
 [Reflection 1](/Reflections/ref01.md)
-
+I found .schema most useful because it shows a table's structure, including its column names and data types.
