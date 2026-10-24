@@ -1,0 +1,15 @@
+
+# Python virtual environment
+.venv/
+
+# Local database files
+*.db
+*.db-journal
+*.duckdb
+*.parquet
+
+# Secrets and environment variables
+.env
+
+# Python cache
+__pycache__/
