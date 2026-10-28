@@ -48,3 +48,13 @@ Challenges:
 ## Reflection 1
 [Reflection 1](/Reflections/ref01.md)
 I found .schema most useful because it shows a table's structure, including its column names and data types.
+
+### Task 8: Publish Data with Datasette
+
+- **Table view screenshot:** `datasette-filtered-view.png`
+- **Filtered CSV export:** `datasette-cnc-01.csv`
+- **Single-row URL:** `http://127.0.0.1:8001/telemetry/readings/1`
+- **Total readings:** 172,800
+- **Filtered readings for `cnc-01`:** 57,600
+
+**Result:** Datasette successfully displayed the telemetry database, filtered readings by machine, and exported the filtered results as CSV.
