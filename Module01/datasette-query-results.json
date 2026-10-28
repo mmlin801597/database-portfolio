@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "database": "telemetry",
+  "query_name": null,
+  "rows": [
+    [
+      "cnc-03",
+      60.15],
+    [
+      "cnc-02",
+      60.15],
+    [
+      "cnc-01",
+      60.14]
+  ],
+  "truncated": false,
+  "columns": [
+    "machine",
+    "average_spindle_load"
+  ],
+  "query": {
+    "sql": "SELECT\r\n    machine,\r\n    ROUND(AVG(spindle_load), 2) AS average_spindle_load\r\nFROM readings\r\nGROUP BY machine\r\nORDER BY average_spindle_load DESC;",
+    "params": {
+
+    }
+  },
+  "error": null,
+  "private": false,
+  "allow_execute_sql": true,
+  "query_ms": 102.950099972077
+}
